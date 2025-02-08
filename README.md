@@ -8,14 +8,14 @@ The primary goal of this project is to analyze past trends and predict future CO
 - **Machine Learning Forecasting Models**: Linear Regression, LSTM, Prophet, and CNN-LSTM.  
 - **Helper Functions** for modularity and efficiency.   
 
-![LD](https://github.com/Sandy593/Covid19_Forecasting/blob/main/Data/collage.gif)
+![LD](https://github.com/Sandy593/Covid19_Forecast/blob/main/Data/collage.gif)
 ---
 
 ## Running the Project Locally  
 
 ### **1️⃣ Clone the Repository**  
-git clone https://github.com/Sandy593/COVID19_Forecasting.git
-cd COVID19_Forecasting
+git clone https://github.com/Sandy593/Covid19_Forecast.git
+cd COVID19_Forecast
 
 2️⃣ Install Dependencies
 pip install -r requirements.txt
