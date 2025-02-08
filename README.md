@@ -57,7 +57,7 @@ Key Features:
 
 		A hybrid approach (CNN-LSTM + Transformers) could be ideal for combining long-term seasonality with short-term spikes.
 ---
-**Next Steps & Future Improvements**
+## **Next Steps & Future Improvements**
 
 1️⃣ Fine-Tune CNN-LSTM
 	
