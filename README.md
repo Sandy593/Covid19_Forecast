@@ -51,24 +51,20 @@ Key Features:
 
 **Key Takeaways**
 
-		Best Performing Model: CNN-LSTM captured trend patterns + sharp peaks better than others.
-
-		Needs Fine-tuning hyperparameters for long-term forecasting.
-
-		A hybrid approach (CNN-LSTM + Transformers) could be ideal for combining long-term seasonality with short-term spikes.
+	Best Performing Model: CNN-LSTM captured trend patterns + sharp peaks better than others.
+	Needs Fine-tuning hyperparameters for long-term forecasting.
+	A hybrid approach (CNN-LSTM + Transformers) could be ideal for combining long-term seasonality with short-term spikes.
 ---
 ## **Next Steps & Future Improvements**
 
 1️⃣ Fine-Tune CNN-LSTM
 	
-	Optimize hyperparameters (LSTM units, dropout, learning rate).
-	
+	Optimize hyperparameters (LSTM units, dropout, learning rate).	
 	Adjust training window size (lookback period) to improve accuracy.
 
 2️⃣ Incorporate External Factors
 	
 	Include vaccination rates, lockdown policies, mobility trends to enhance predictions.
-
 	Use Google Mobility data, weather conditions, and other real-world factors.
 
 3️⃣ Hybrid Model Approach
@@ -77,8 +73,7 @@ Key Features:
 
 4️⃣ Improve Deployment Readiness
 
-	Convert the model into an API (FastAPI/Flask) for real-time predictions.
-	
+	Convert the model into an API (FastAPI/Flask) for real-time predictions.	
  	Deploy to AWS/GCP with a CI/CD pipeline for continuous monitoring.
 ---
 ## ☁️ **Deployment Considerations**
@@ -102,7 +97,6 @@ Key Features:
 
 4️⃣ Scalability
 
-	Use a microservices approach (API-based) to handle increasing user requests.
 	Containerize the model with Docker for cross-platform deployment.
 	Optimize inference speed using TensorRT or ONNX for compression.
 
@@ -112,7 +106,6 @@ Key Features:
 1️⃣ Future Waves & Variants
 	
 	COVID-19 is becoming similar to seasonal flu. New variants may still emerge, but mass immunity will limit severity.
-
 	Post-2022 cases may fluctuate, but deaths remain low due to:
 
 		•	Higher natural + vaccine-induced immunity.
@@ -124,21 +117,17 @@ Key Features:
 2️⃣ Seasonality & Future Trends
 
 	COVID-19 could follow a seasonal pattern like influenza.
-
 	Future waves may coincide with flu season, requiring annual booster shots.
 
 3️⃣ Vaccination & Boosters Remain Key
 
-	Future waves are likely but manageable.
-	
+	Future waves are likely but manageable.	
 	Vaccination, early detection, and treatments will minimize impact.
 
 ---
 ## 🎯 **Conclusion**
 
 ✅ Future waves are possible but will likely be less severe & more predictable.
-
-✅ COVID-19 is transitioning into an endemic virus, requiring seasonal management like the flu.
 
 ✅ Vaccination, early detection, and treatments will remain critical in mitigating impact.
 ---
