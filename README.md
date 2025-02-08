@@ -31,8 +31,11 @@ The primary goal of this project is to analyze past trends and predict future CO
 ---
 🔍 Exploratory Data Analysis (EDA)
 	📌 Data is cleaned and preprocessed, handling missing values and inconsistencies.
+
 	🌍 Dynamic world map visualizes daily COVID-19 cases per country.
+
 	📉 Time-lapse bar charts showcase COVID-19 deaths over time.
+
 	📊 Interactive plots compare cases, deaths, and vaccination rates to understand the impact of vaccination on infection trends.
 ---
 🔮 Forecasting Models
@@ -46,7 +49,9 @@ The primary goal of this project is to analyze past trends and predict future CO
 
 Key Takeaways
 	•	Best Performing Model: CNN-LSTM captured trend patterns + sharp peaks better than others.
+
 	•	Needs Fine-tuning hyperparameters for long-term forecasting.
+
 	•	A hybrid approach (CNN-LSTM + Transformers) could be ideal for combining long-term seasonality with short-term spikes.
 ---
 **Next Steps & Future Improvements**
@@ -93,25 +98,28 @@ Key Takeaways
 🔬 Predictions & Insights on Future COVID-19 Waves
 
 1️⃣ Future Waves & Variants
-	•	COVID-19 is becoming similar to seasonal flu. New variants may still emerge, but mass immunity will limit severity.
-	•	Post-2022 cases may fluctuate, but deaths remain low due to:
+	COVID-19 is becoming similar to seasonal flu. New variants may still emerge, but mass immunity will limit severity.
+
+	Post-2022 cases may fluctuate, but deaths remain low due to:
 		•	Higher natural + vaccine-induced immunity.
 		•	Better medical interventions (antivirals, monoclonal antibodies, etc.).
 		•	Increased awareness & preventive measures (masking, testing, boosters).
-d
+
 2️⃣ Seasonality & Future Trends
-	•	COVID-19 could follow a seasonal pattern like influenza.
-	•	Future waves may coincide with flu season, requiring annual booster shots.
+	COVID-19 could follow a seasonal pattern like influenza.
+	Future waves may coincide with flu season, requiring annual booster shots.
 
 3️⃣ Vaccination & Boosters Remain Key
-	•	Future waves are likely but manageable.
-	•	Vaccination, early detection, and treatments will minimize impact.
+	Future waves are likely but manageable.
+	Vaccination, early detection, and treatments will minimize impact.
 
 ---
 🎯 Conclusion
 
 ✅ Future waves are possible but will likely be less severe & more predictable.
+
 ✅ COVID-19 is transitioning into an endemic virus, requiring seasonal management like the flu.
+
 ✅ Vaccination, early detection, and treatments will remain critical in mitigating impact.
 ---
 💡 Final Thoughts
