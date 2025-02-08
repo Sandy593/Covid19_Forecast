@@ -24,47 +24,48 @@ pip install -r requirements.txt
 jupyter notebook
 	•	Open exploratory_data_analysis.ipynb for data visualization.
 	•	Open forecasting.ipynb to run different prediction models.
-
+---
 🔍 Exploratory Data Analysis (EDA)
 	•	📌 Data is cleaned and preprocessed, handling missing values and inconsistencies.
 	•	🌍 Dynamic world map visualizes daily COVID-19 cases per country.
 	•	📉 Time-lapse bar charts showcase COVID-19 deaths over time.
 	•	📊 Interactive plots compare cases, deaths, and vaccination rates to understand the impact of vaccination on infection trends.
-
+---
 🔮 Forecasting Models
 
-Several time-series forecasting models were implemented and compared:
-	•	Linear Regression: Failed to capture non-linearity, performed poorly.
-	•	LSTM: Good at capturing short-term trends but missed major spikes.
-	•	Prophet: Excelled at seasonality but underestimated sudden outbreaks.
-	•	CNN-LSTM: Outperformed others by better capturing both short-term trends and sudden peaks. Needs fine-tuning for further improvements.
+| Model           | Strengths                         | Weaknesses                          |
+|----------------|----------------------------------|-------------------------------------|
+| **Linear Regression** | Simple, interpretable       | Fails to capture non-linearity     |
+| **LSTM**       | Good at short-term trends        | Misses major spikes                |
+| **Prophet**    | Captures seasonality well        | Underestimates sudden outbreaks    |
+| **CNN-LSTM**   | Captures both trends & peaks     | Needs fine-tuning                  |
 
 Key Takeaways
 	•	Best Performing Model: CNN-LSTM captured trend patterns + sharp peaks better than others.
 	•	Needs Fine-tuning hyperparameters for long-term forecasting.
 	•	A hybrid approach (CNN-LSTM + Transformers) could be ideal for combining long-term seasonality with short-term spikes.
-
+---
 Next Steps & Future Improvements
 
 1️⃣ Fine-Tune CNN-LSTM
 
-	•	Optimize hyperparameters (LSTM units, dropout, learning rate).
-	•	Adjust training window size (lookback period) to improve accuracy.
+	Optimize hyperparameters (LSTM units, dropout, learning rate).
+	Adjust training window size (lookback period) to improve accuracy.
 
 2️⃣ Incorporate External Factors
 
-	•	Include vaccination rates, lockdown policies, mobility trends to enhance predictions.
-	•	Use Google Mobility data, weather conditions, and other real-world factors.
+	Include vaccination rates, lockdown policies, mobility trends to enhance predictions.
+	Use Google Mobility data, weather conditions, and other real-world factors.
 
 3️⃣ Hybrid Model Approach
 
-	•	Combine CNN-LSTM for short-term peaks with Transformers for long-term trends.
+	Combine CNN-LSTM for short-term peaks with Transformers for long-term trends.
 
 4️⃣ Improve Deployment Readiness
 
-	•	Convert the model into an API (FastAPI/Flask) for real-time predictions.
- 	•	Deploy to AWS/GCP with a CI/CD pipeline for continuous monitoring.
-
+	Convert the model into an API (FastAPI/Flask) for real-time predictions.
+ 	Deploy to AWS/GCP with a CI/CD pipeline for continuous monitoring.
+---
 ☁️ Deployment Considerations
 
 1️⃣ Scalability
@@ -84,7 +85,7 @@ Next Steps & Future Improvements
 	•	Deploy a REST API using FastAPI for real-time predictions.
 	•	Integrate with public dashboards for visualization.
 
-
+---
 🔬 Predictions & Insights on Future COVID-19 Waves
 
 1️⃣ Future Waves & Variants
@@ -103,13 +104,13 @@ Next Steps & Future Improvements
 	•	Future waves are likely but manageable.
 	•	Vaccination, early detection, and treatments will minimize impact.
 
-
+---
 🎯 Conclusion
 
 ✅ Future waves are possible but will likely be less severe & more predictable.
 ✅ COVID-19 is transitioning into an endemic virus, requiring seasonal management like the flu.
 ✅ Vaccination, early detection, and treatments will remain critical in mitigating impact.
-
+---
 💡 Final Thoughts
 
 This project provides a comprehensive framework for COVID-19 forecasting using multiple models.
