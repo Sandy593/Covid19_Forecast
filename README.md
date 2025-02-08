@@ -25,11 +25,12 @@ The primary goal of this project is to analyze past trends and predict future CO
 3️⃣ **Install Dependecies**
 
 	jupyter notebook
-	•	Open exploratory_data_analysis.ipynb for data visualization.
-	•	Open forecasting.ipynb to run different prediction models.
+		Open exploratory_data_analysis.ipynb for data visualization.
+		Open forecasting.ipynb to run different prediction models.
 
 ---
-🔍 Exploratory Data Analysis (EDA)
+## 🔍 **Exploratory Data Analysis (EDA)**
+
 	📌 Data is cleaned and preprocessed, handling missing values and inconsistencies.
 
 	🌍 Dynamic world map visualizes daily COVID-19 cases per country.
@@ -38,7 +39,7 @@ The primary goal of this project is to analyze past trends and predict future CO
 
 	📊 Interactive plots compare cases, deaths, and vaccination rates to understand the impact of vaccination on infection trends.
 ---
-🔮 Forecasting Models
+## 🔮 **Forecasting Models**
 
 | Model           | Strengths                         | Weaknesses                          |
 |----------------|----------------------------------|-------------------------------------|
@@ -47,12 +48,13 @@ The primary goal of this project is to analyze past trends and predict future CO
 | **Prophet**    | Captures seasonality well        | Underestimates sudden outbreaks    |
 | **CNN-LSTM**   | Captures both trends & peaks     | Needs fine-tuning                  |
 
-Key Takeaways
-	•	Best Performing Model: CNN-LSTM captured trend patterns + sharp peaks better than others.
+**Key Takeaways**
 
-	•	Needs Fine-tuning hyperparameters for long-term forecasting.
+	Best Performing Model: CNN-LSTM captured trend patterns + sharp peaks better than others.
 
-	•	A hybrid approach (CNN-LSTM + Transformers) could be ideal for combining long-term seasonality with short-term spikes.
+	Needs Fine-tuning hyperparameters for long-term forecasting.
+
+	A hybrid approach (CNN-LSTM + Transformers) could be ideal for combining long-term seasonality with short-term spikes.
 ---
 **Next Steps & Future Improvements**
 
@@ -75,46 +77,62 @@ Key Takeaways
 	Convert the model into an API (FastAPI/Flask) for real-time predictions.
  	Deploy to AWS/GCP with a CI/CD pipeline for continuous monitoring.
 ---
-☁️ Deployment Considerations
+##☁️ **Deployment Considerations**
 
 1️⃣ Scalability
+
 	•	Use a microservices approach (API-based) to handle increasing user requests.
+
 	•	Containerize the model with Docker for cross-platform deployment.
+
 	•	Optimize inference speed using TensorRT or ONNX for compression.
 
 2️⃣ Performance Optimization
+
 	•	Implement batch processing for large-scale predictions.
+
 	•	Use GPU accdseleration (TensorFlow with CUDA) to speed up training & inference.
 
 3️⃣ CI/CD Pipeline
+
 	•	Automate model training, validation, and deployment using GitHub Actions + AWS Lambda.
+
 	•	Monitor model drift using MLFlow or Weights & Biases to maintain accuracy over time.
 
 4️⃣ API Integration for Real-World Use
+
 	•	Deploy a REST API using FastAPI for real-time predictions.
+
 	•	Integrate with public dashboards for visualization.
 
 ---
-🔬 Predictions & Insights on Future COVID-19 Waves
+## 🔬 **Predictions & Insights on Future COVID-19 Waves**
 
 1️⃣ Future Waves & Variants
 	COVID-19 is becoming similar to seasonal flu. New variants may still emerge, but mass immunity will limit severity.
 
 	Post-2022 cases may fluctuate, but deaths remain low due to:
+
 		•	Higher natural + vaccine-induced immunity.
+
 		•	Better medical interventions (antivirals, monoclonal antibodies, etc.).
+
 		•	Increased awareness & preventive measures (masking, testing, boosters).
 
 2️⃣ Seasonality & Future Trends
+
 	COVID-19 could follow a seasonal pattern like influenza.
+
 	Future waves may coincide with flu season, requiring annual booster shots.
 
 3️⃣ Vaccination & Boosters Remain Key
+
 	Future waves are likely but manageable.
+	
 	Vaccination, early detection, and treatments will minimize impact.
 
 ---
-🎯 Conclusion
+## 🎯 **Conclusion**
 
 ✅ Future waves are possible but will likely be less severe & more predictable.
 
@@ -122,7 +140,7 @@ Key Takeaways
 
 ✅ Vaccination, early detection, and treatments will remain critical in mitigating impact.
 ---
-💡 Final Thoughts
+## 💡 **Final Thoughts**
 
 This project provides a comprehensive framework for COVID-19 forecasting using multiple models.
 While CNN-LSTM performed the best, further enhancements (external data, hybrid models, deployment) will improve scalability and accuracy for real-world use.
