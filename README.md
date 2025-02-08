@@ -50,11 +50,11 @@ The primary goal of this project is to analyze past trends and predict future CO
 
 **Key Takeaways**
 
-	Best Performing Model: CNN-LSTM captured trend patterns + sharp peaks better than others.
+		Best Performing Model: CNN-LSTM captured trend patterns + sharp peaks better than others.
 
-	Needs Fine-tuning hyperparameters for long-term forecasting.
+		Needs Fine-tuning hyperparameters for long-term forecasting.
 
-	A hybrid approach (CNN-LSTM + Transformers) could be ideal for combining long-term seasonality with short-term spikes.
+		A hybrid approach (CNN-LSTM + Transformers) could be ideal for combining long-term seasonality with short-term spikes.
 ---
 **Next Steps & Future Improvements**
 
@@ -77,38 +77,41 @@ The primary goal of this project is to analyze past trends and predict future CO
 	Convert the model into an API (FastAPI/Flask) for real-time predictions.
  	Deploy to AWS/GCP with a CI/CD pipeline for continuous monitoring.
 ---
-##☁️ **Deployment Considerations**
+## ☁️ **Deployment Considerations**
 
-1️⃣ Scalability
 
-	•	Use a microservices approach (API-based) to handle increasing user requests.
 
-	•	Containerize the model with Docker for cross-platform deployment.
+1️⃣ Performance Optimization
 
-	•	Optimize inference speed using TensorRT or ONNX for compression.
+	Implement batch processing for large-scale predictions.
 
-2️⃣ Performance Optimization
+	Use GPU accdseleration (TensorFlow with CUDA) to speed up training & inference.
 
-	•	Implement batch processing for large-scale predictions.
+2️⃣ CI/CD Pipeline
 
-	•	Use GPU accdseleration (TensorFlow with CUDA) to speed up training & inference.
+	Automate model training, validation, and deployment using GitHub Actions + AWS Lambda.
 
-3️⃣ CI/CD Pipeline
+	Monitor model drift using MLFlow or Weights & Biases to maintain accuracy over time.
 
-	•	Automate model training, validation, and deployment using GitHub Actions + AWS Lambda.
+3️⃣ API Integration for Real-World Use
 
-	•	Monitor model drift using MLFlow or Weights & Biases to maintain accuracy over time.
+	Deploy a REST API using FastAPI for real-time predictions.
 
-4️⃣ API Integration for Real-World Use
+	Integrate with public dashboards for visualization.
 
-	•	Deploy a REST API using FastAPI for real-time predictions.
+4️⃣ Scalability
 
-	•	Integrate with public dashboards for visualization.
+	Use a microservices approach (API-based) to handle increasing user requests.
+
+	Containerize the model with Docker for cross-platform deployment.
+
+	Optimize inference speed using TensorRT or ONNX for compression.
 
 ---
 ## 🔬 **Predictions & Insights on Future COVID-19 Waves**
 
 1️⃣ Future Waves & Variants
+	
 	COVID-19 is becoming similar to seasonal flu. New variants may still emerge, but mass immunity will limit severity.
 
 	Post-2022 cases may fluctuate, but deaths remain low due to:
