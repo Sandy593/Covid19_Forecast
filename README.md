@@ -52,7 +52,9 @@ Key Features:
 **Key Takeaways**
 
 	Best Performing Model: CNN-LSTM captured trend patterns + sharp peaks better than others.
+
 	Needs Fine-tuning hyperparameters for long-term forecasting.
+	
 	A hybrid approach (CNN-LSTM + Transformers) could be ideal for combining long-term seasonality with short-term spikes.
 ---
 ## **Next Steps & Future Improvements**
@@ -108,11 +110,11 @@ Key Features:
 	COVID-19 is becoming similar to seasonal flu. New variants may still emerge, but mass immunity will limit severity.
 	Post-2022 cases may fluctuate, but deaths remain low due to:
 
-		•	Higher natural + vaccine-induced immunity.
+	•	Higher natural + vaccine-induced immunity.
 
-		•	Better medical interventions (antivirals, monoclonal antibodies, etc.).
+	•	Better medical interventions (antivirals, monoclonal antibodies, etc.).
 
-		•	Increased awareness & preventive measures (masking, testing, boosters).
+	•	Increased awareness & preventive measures (masking, testing, boosters).
 
 2️⃣ Seasonality & Future Trends
 
@@ -128,6 +130,7 @@ Key Features:
 ## 🎯 **Conclusion**
 
 ✅ Future waves are possible but will likely be less severe & more predictable.
+✅ Vaccination, early detection, and treatments will remain critical in mitigating impact.
 
 ✅ Vaccination, early detection, and treatments will remain critical in mitigating impact.
 ---
