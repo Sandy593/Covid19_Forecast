@@ -13,23 +13,27 @@ The primary goal of this project is to analyze past trends and predict future CO
 
 ## Running the Project Locally  
 
-### **1️⃣ Clone the Repository**  
-git clone https://github.com/Sandy593/Covid19_Forecast.git
-cd COVID19_Forecast
+1️⃣ **Clone the Repository**
 
-2️⃣ Install Dependencies
-pip install -r requirements.txt
+	git clone https://github.com/Sandy593/Covid19_Forecast.git
+	cd COVID19_Forecast
 
-3️⃣ Run Jupyter Notebook
-jupyter notebook
+2️⃣ **Install Dependecies**
+
+	pip install -r requirements.txt
+
+3️⃣ **Install Dependecies**
+
+	jupyter notebook
 	•	Open exploratory_data_analysis.ipynb for data visualization.
 	•	Open forecasting.ipynb to run different prediction models.
+
 ---
 🔍 Exploratory Data Analysis (EDA)
-	•	📌 Data is cleaned and preprocessed, handling missing values and inconsistencies.
-	•	🌍 Dynamic world map visualizes daily COVID-19 cases per country.
-	•	📉 Time-lapse bar charts showcase COVID-19 deaths over time.
-	•	📊 Interactive plots compare cases, deaths, and vaccination rates to understand the impact of vaccination on infection trends.
+	📌 Data is cleaned and preprocessed, handling missing values and inconsistencies.
+	🌍 Dynamic world map visualizes daily COVID-19 cases per country.
+	📉 Time-lapse bar charts showcase COVID-19 deaths over time.
+	📊 Interactive plots compare cases, deaths, and vaccination rates to understand the impact of vaccination on infection trends.
 ---
 🔮 Forecasting Models
 
@@ -45,7 +49,7 @@ Key Takeaways
 	•	Needs Fine-tuning hyperparameters for long-term forecasting.
 	•	A hybrid approach (CNN-LSTM + Transformers) could be ideal for combining long-term seasonality with short-term spikes.
 ---
-Next Steps & Future Improvements
+**Next Steps & Future Improvements**
 
 1️⃣ Fine-Tune CNN-LSTM
 
@@ -75,7 +79,7 @@ Next Steps & Future Improvements
 
 2️⃣ Performance Optimization
 	•	Implement batch processing for large-scale predictions.
-	•	Use GPU acceleration (TensorFlow with CUDA) to speed up training & inference.
+	•	Use GPU accdseleration (TensorFlow with CUDA) to speed up training & inference.
 
 3️⃣ CI/CD Pipeline
 	•	Automate model training, validation, and deployment using GitHub Actions + AWS Lambda.
@@ -89,13 +93,12 @@ Next Steps & Future Improvements
 🔬 Predictions & Insights on Future COVID-19 Waves
 
 1️⃣ Future Waves & Variants
-	•	COVID-19 is becoming endemic, similar to seasonal flu.
-	•	New variants may still emerge, but mass immunity will limit severity.
+	•	COVID-19 is becoming similar to seasonal flu. New variants may still emerge, but mass immunity will limit severity.
 	•	Post-2022 cases may fluctuate, but deaths remain low due to:
-	•	Higher natural + vaccine-induced immunity.
-	•	Better medical interventions (antivirals, monoclonal antibodies, etc.).
-	•	Increased awareness & preventive measures (masking, testing, boosters).
-
+		•	Higher natural + vaccine-induced immunity.
+		•	Better medical interventions (antivirals, monoclonal antibodies, etc.).
+		•	Increased awareness & preventive measures (masking, testing, boosters).
+d
 2️⃣ Seasonality & Future Trends
 	•	COVID-19 could follow a seasonal pattern like influenza.
 	•	Future waves may coincide with flu season, requiring annual booster shots.
