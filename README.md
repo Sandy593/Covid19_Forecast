@@ -60,21 +60,14 @@ Key Features:
 **Next Steps & Future Improvements**
 
 1️⃣ Fine-Tune CNN-LSTM
-
 	Optimize hyperparameters (LSTM units, dropout, learning rate).
 	Adjust training window size (lookback period) to improve accuracy.
-
 2️⃣ Incorporate External Factors
-
 	Include vaccination rates, lockdown policies, mobility trends to enhance predictions.
 	Use Google Mobility data, weather conditions, and other real-world factors.
-
 3️⃣ Hybrid Model Approach
-
 	Combine CNN-LSTM for short-term peaks with Transformers for long-term trends.
-
 4️⃣ Improve Deployment Readiness
-
 	Convert the model into an API (FastAPI/Flask) for real-time predictions.
  	Deploy to AWS/GCP with a CI/CD pipeline for continuous monitoring.
 ---
