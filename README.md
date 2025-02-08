@@ -1,6 +1,3 @@
-# COVID-19 Forecasting & Analysis Project  
-![LD](https://github.com/Sandy593/Covid19_Forecast/blob/main/Data/collage.gif)
-
 <h1 align="center">COVID-19 Forecasting & Analysis Project</h1>
 <p align="center">
   <img src="https://github.com/Sandy593/Covid19_Forecast/blob/main/Data/collage.gif" alt="LD">
@@ -9,7 +6,7 @@
 ## Project Overview  
 The primary goal of this project is to analyze past trends and predict future COVID-19 waves to aid in decision-making and resource allocation. This repository provides an in-depth analysis and forecasting of COVID-19 cases, deaths, and vaccination trends using multiple machine learning models.
 
-### Key Features:
+Key Features:
 - **Exploratory Data Analysis (EDA)** with interactive visualizations and animated maps.  
 - **Machine Learning Forecasting Models**: Linear Regression, LSTM, Prophet, and CNN-LSTM.  
 - **Helper Functions** for modularity and efficiency.   
@@ -88,27 +85,22 @@ The primary goal of this project is to analyze past trends and predict future CO
 1️⃣ Performance Optimization
 
 	Implement batch processing for large-scale predictions.
-
 	Use GPU accdseleration (TensorFlow with CUDA) to speed up training & inference.
 
 2️⃣ CI/CD Pipeline
 
 	Automate model training, validation, and deployment using GitHub Actions + AWS Lambda.
-
 	Monitor model drift using MLFlow or Weights & Biases to maintain accuracy over time.
 
 3️⃣ API Integration for Real-World Use
 
 	Deploy a REST API using FastAPI for real-time predictions.
-
 	Integrate with public dashboards for visualization.
 
 4️⃣ Scalability
 
 	Use a microservices approach (API-based) to handle increasing user requests.
-
 	Containerize the model with Docker for cross-platform deployment.
-
 	Optimize inference speed using TensorRT or ONNX for compression.
 
 ---
