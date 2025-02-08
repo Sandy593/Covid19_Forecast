@@ -6,6 +6,8 @@
 ## Project Overview  
 The primary goal of this project is to analyze past trends and predict future COVID-19 waves to aid in decision-making and resource allocation. This repository provides an in-depth analysis and forecasting of COVID-19 cases, deaths, and vaccination trends using multiple machine learning models.
 
+Resource: https://data.who.int/dashboards/covid19/data
+
 Key Features:
 - **Exploratory Data Analysis (EDA)** with interactive visualizations and animated maps.  
 - **Machine Learning Forecasting Models**: Linear Regression, LSTM, Prophet, and CNN-LSTM.  
@@ -28,6 +30,7 @@ Key Features:
 	jupyter notebook
 		Open exploratory_data_analysis.ipynb for data visualization.
 		Open forecasting.ipynb to run different prediction models.
+		Open forecasting.py for deployment for faster execution, better version control, modularity, scalability, easier integration.
 
 ---
 ## 🔍 **Exploratory Data Analysis (EDA)**
