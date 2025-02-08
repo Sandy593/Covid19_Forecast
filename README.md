@@ -1,4 +1,10 @@
 # COVID-19 Forecasting & Analysis Project  
+![LD](https://github.com/Sandy593/Covid19_Forecast/blob/main/Data/collage.gif)
+
+<h1 align="center">COVID-19 Forecasting & Analysis Project</h1>
+<p align="center">
+  <img src="https://github.com/Sandy593/Covid19_Forecast/blob/main/Data/collage.gif" alt="LD">
+</p>
 
 ## Project Overview  
 The primary goal of this project is to analyze past trends and predict future COVID-19 waves to aid in decision-making and resource allocation. This repository provides an in-depth analysis and forecasting of COVID-19 cases, deaths, and vaccination trends using multiple machine learning models.
@@ -7,8 +13,6 @@ The primary goal of this project is to analyze past trends and predict future CO
 - **Exploratory Data Analysis (EDA)** with interactive visualizations and animated maps.  
 - **Machine Learning Forecasting Models**: Linear Regression, LSTM, Prophet, and CNN-LSTM.  
 - **Helper Functions** for modularity and efficiency.   
-
-![LD](https://github.com/Sandy593/Covid19_Forecast/blob/main/Data/collage.gif)
 ---
 
 ## Running the Project Locally  
