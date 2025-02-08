@@ -8,7 +8,7 @@ The primary goal of this project is to analyze past trends and predict future CO
 - **Machine Learning Forecasting Models**: Linear Regression, LSTM, Prophet, and CNN-LSTM.  
 - **Helper Functions** for modularity and efficiency.   
 
-![LD](https://github.com/Sandy593/Covid19_Forecasting/blob/main/Data/COVID-19_cases_map.gif)
+![LD](https://github.com/Sandy593/Covid19_Forecasting/blob/main/Data/collage.gif)
 ---
 
 ## Running the Project Locally  
