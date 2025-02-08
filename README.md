@@ -131,7 +131,8 @@ Key Features:
 
 ✅ Future waves are possible but will likely be less severe & more predictable.
 
-✅ Vaccination, early detection, and treatments will remain critical in mitigating impact.
+✅ Vaccination, early detection and treatments will remain critical in mitigating impact.
+
 ---
 ## 💡 **Final Thoughts**
 
